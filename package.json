@@ -1,0 +1,19 @@
+{
+  "name": "jsonl-to-csv-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool written in JS for converting large json datasets to csv",
+  "bin": {
+    "jsonl-to-csv": "bin/jsonl-to-csv.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "csv-stringify": "^5.6.5",
+    "split2": "^4.1.0"
+  }
+}
